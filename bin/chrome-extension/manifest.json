@@ -1,0 +1,12 @@
+{
+  "name": "GitHub Cross Reference",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Add cross-referencing to GitHub's source listings",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*", "https://www.github.com/*"],
+      "js": ["github-xref.js"]
+    }
+  ]
+}

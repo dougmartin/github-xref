@@ -1,0 +1,35 @@
+{
+  "name": "github-xref",
+  "version": "1.0.0",
+  "description": "Source code cross-referencing bookmarklet and browser extension for GitHub",
+  "author": {
+    "name": "Doug Martin",
+    "email": "doug@dougmart.in",
+    "web": "http://dougmart.in"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "homepage": "http://dougmart.in/projects/github-xref",
+  "keywords": [
+    "github",
+    "xref",
+    "code",
+    "source",
+    "cross-reference"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dougmartin/github-xref.git"
+  },
+  "bugs": "https://github.com/dougmartin/github-xref/issues",
+  "devDependencies": {
+    "gulp-uglify": "^1.1.0",
+    "gulp-insert": "^0.4.0",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.2",
+    "beepbeep": "^1.2.0",
+    "jshint-stylish": "^1.0.1"
+  }
+}
+
+
